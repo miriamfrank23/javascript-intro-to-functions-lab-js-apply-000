@@ -1,7 +1,7 @@
-function shout(string) {
+const shout = (str) => {
   return string.toUpperCase()
 }
 
-function whisper (str) => {
+const whisper = (str) => {
   return str.toLowerCase();
 }
