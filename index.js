@@ -1,5 +1,5 @@
 const shout = (str) => {
-  return str.toUpperCase()
+  return str.toUpperCase();
 }
 
 const whisper = (str) => {
@@ -8,6 +8,10 @@ const whisper = (str) => {
 
 const logWhisper = (str) => {
   console.log(str.toLowerCase());
+}
+
+const logShout = (str) => {
+  console.log(str.toUpperCase());
 }
 
 const sayHiToGrandma = (str) => {
