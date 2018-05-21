@@ -15,10 +15,10 @@ const logShout = (str) => {
 }
 
 const sayHiToGrandma = (str) => {
-  if (str === lowercase) {
+  if (str.toLowerCase === str) {
     return "I can't hear you!";
   }
-  if (str === uppercase) {
+  if (str.toUpperCase === str) {
     return "YES INDEED";
   }
   if (str === 'I love you, Grandma.') {
